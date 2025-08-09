@@ -1,3 +1,7 @@
+"""
+This module handles data ingestion. It reads a dataset from a CSV file, splits it into training and testing sets, and saves these sets to specified paths.
+"""
+
 import os
 import sys
 from src.exception import CustomException
