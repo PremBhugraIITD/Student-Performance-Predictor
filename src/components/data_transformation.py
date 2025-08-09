@@ -1,3 +1,8 @@
+"""
+This module contains the DataTransformation class which is responsible for transforming the data.
+It includes methods to preprocess the data by scaling numerical features and encoding categorical features.
+"""
+
 import sys
 from dataclasses import dataclass
 import numpy as np
